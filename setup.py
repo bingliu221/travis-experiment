@@ -10,5 +10,8 @@ setup(name='stringutils',
       packages=['stringutils'],
       install_requires=[
           'markdown',
+          'numpy',
+          'scipy',
+          'scikit-learn',
       ],
       zip_safe=False)
