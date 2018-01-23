@@ -7,4 +7,4 @@ class TestStringutils(unittest.TestCase):
     def test_reverse(self):
         self.assertEqual(reverse('hello world'), 'dlrow olleh')
         self.assertEqual(reverse(''), '')
-        self.assertEqual(reverse('中文', '文中'))
+        self.assertEqual(reverse('中文'), '文中')
